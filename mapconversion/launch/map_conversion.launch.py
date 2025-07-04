@@ -24,7 +24,7 @@ def generate_launch_description():
                 'publisher_qos_transient_local': False,
             }],
             remappings=[
-                ('octomap', 'octomap_full')
+                ('octomap', '/navigation/octomap_full')
             ]
         ),
         # Uncomment if using offline map
